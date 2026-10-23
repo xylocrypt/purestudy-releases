@@ -2,7 +2,7 @@
 
 PureStudy is a cozy offline study timer for Windows and the browser. Version 2.3 adds a priority to-do list, task-linked focus blocks, an exam countdown, an offline study coach, pet-specific treats, and JSON backup/restore — alongside the timer, XP, streaks, eight customizable study buddies, study music, error journal, and mind map.
 
-**Website:** [PureStudy landing page](https://html.cafe/x8efb4c95) ? a visual tour of the timer, buddies and 2.3 features.
+**Website:** [PureStudy landing page](https://html.cafe/x8efb4c95) - a visual tour of the timer, buddies and 2.3 features.
 
 ## Download PureStudy 2.3
 
