@@ -1,11 +1,24 @@
-# Purrsuit — Study Timer
+# PureStudy — Study Timer
 
-Purrsuit is a small offline study app: a focus timer with XP and streaks, a cat named Chase, generated study music, a freeform mind map, and an error journal.
+PureStudy is a cozy offline study timer for Windows and the browser. Version 2.3 adds a priority to-do list, task-linked focus blocks, an exam countdown, an offline study coach, pet-specific treats, and JSON backup/restore — alongside the timer, XP, streaks, eight customizable study buddies, study music, error journal, and mind map.
 
-## Download
+## Download PureStudy 2.3
 
-- **Windows installer (v1, 64-bit)**: [Purrsuit-Windows-v1.zip](https://github.com/xylocrypt/purrsuit-releases/releases/download/v1/Purrsuit-Windows-v1.zip)
-- **Release page**: [Purrsuit v1](https://github.com/xylocrypt/purrsuit-releases/releases/tag/v1)
-- **Mobile / browser version**: [html.cafe/x81efd1b9](https://html.cafe/x81efd1b9)
+- **Windows installer + release notes (ZIP)**: [PureStudy-Windows-v2.3.zip](https://github.com/xylocrypt/purestudy-releases/releases/download/v2.3/PureStudy-Windows-v2.3.zip)
+- **Installer only**: [PureStudy-Setup.exe](https://github.com/xylocrypt/purestudy-releases/releases/download/v2.3/PureStudy-Setup.exe)
+- **Portable, no install**: [PureStudy.exe](https://github.com/xylocrypt/purestudy-releases/releases/download/v2.3/PureStudy.exe)
+- **Checksums**: [SHA256SUMS.txt](https://github.com/xylocrypt/purestudy-releases/releases/download/v2.3/SHA256SUMS.txt)
+- **Release page**: [PureStudy v2.3](https://github.com/xylocrypt/purestudy-releases/releases/tag/v2.3)
+- **All releases**: [purestudy-releases](https://github.com/xylocrypt/purestudy-releases/releases)
 
-The Windows build is unsigned. Right-click the downloaded ZIP → Properties → Unblock before extracting, or click **More info → Run anyway** if SmartScreen appears. A code-signing certificate is the only permanent fix.
+## Browser version
+
+Open **https://html.cafe/x9c385582** on desktop or mobile. The web app is a single self-contained HTML file and saves to the browser's local storage.
+
+## Notes
+
+The Windows build is unsigned. Right-click the downloaded ZIP → **Properties → Unblock → Apply** before extracting, or click **More info → Run anyway** if SmartScreen appears. A code-signing certificate is the only permanent fix.
+
+Found a bug or want a feature? Open a [GitHub issue](https://github.com/xylocrypt/purestudy-releases/issues) or email **purestudy75@gmail.com**.
+
+Made by **Othzzzy (Othmane)**.
