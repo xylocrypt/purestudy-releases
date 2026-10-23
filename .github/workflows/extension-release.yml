@@ -19,8 +19,11 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          version="${GITHUB_REF_NAME#extension-}"
+          zip="$(find extension -maxdepth 1 -name 'PureStudy-Extension-*.zip' -print -quit)"
+          test -n "$zip"
           gh release create "$GITHUB_REF_NAME" \
-            "extension/PureStudy-Extension-v2.3.0.zip#PureStudy Extension v2.3.0 (Chrome + Edge)" \
+            "$zip#PureStudy Extension ${version} (Chrome + Edge)" \
             "extension/SHA256SUMS.txt#SHA-256 checksum" \
-            --title "PureStudy Browser Extension v2.3.0" \
+            --title "PureStudy Browser Extension ${version}" \
             --notes-file extension/README.md
