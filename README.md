@@ -2,6 +2,8 @@
 
 PureStudy is a cozy offline study timer for Windows and the browser. Version 2.3 adds a priority to-do list, task-linked focus blocks, an exam countdown, an offline study coach, pet-specific treats, and JSON backup/restore — alongside the timer, XP, streaks, eight customizable study buddies, study music, error journal, and mind map.
 
+**Website:** [PureStudy landing page](https://html.cafe/x8efb4c95) ? a visual tour of the timer, buddies and 2.3 features.
+
 ## Download PureStudy 2.3
 
 - **Windows installer + release notes (ZIP)**: [PureStudy-Windows-v2.3.zip](https://github.com/xylocrypt/purestudy-releases/releases/download/v2.3/PureStudy-Windows-v2.3.zip)
@@ -13,7 +15,7 @@ PureStudy is a cozy offline study timer for Windows and the browser. Version 2.3
 
 ## Browser version
 
-Open **https://html.cafe/x9c385582** on desktop or mobile. The web app is a single self-contained HTML file and saves to the browser's local storage.
+Open the [PureStudy web app](https://html.cafe/x9c385582) on desktop or mobile. The web app is a single self-contained HTML file and saves to the browser's local storage.
 
 ## Notes
 
