@@ -1,0 +1,26 @@
+name: Publish browser extension
+
+on:
+  push:
+    tags:
+      - "extension-v*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the tagged source
+        uses: actions/checkout@v4
+
+      - name: Create the GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" \
+            "extension/PureStudy-Extension-v2.3.0.zip#PureStudy Extension v2.3.0 (Chrome + Edge)" \
+            "extension/SHA256SUMS.txt#SHA-256 checksum" \
+            --title "PureStudy Browser Extension v2.3.0" \
+            --notes-file extension/README.md
