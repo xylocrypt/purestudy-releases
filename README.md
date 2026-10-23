@@ -17,9 +17,10 @@ PureStudy is a cozy offline study timer for Windows, the web, and Chrome/Edge. V
 
 The full PureStudy app is also available as a Manifest V3 browser extension. It opens in a normal tab, adds an **Alt+Shift+P** shortcut, and can notify you when a focus block ends while the tab is closed.
 
-- **Download extension (ZIP)**: [PureStudy-Extension-v2.3.0.zip](https://github.com/xylocrypt/purestudy-releases/raw/main/extension/PureStudy-Extension-v2.3.0.zip)
+- **Download extension (ZIP)**: [PureStudy-Extension-v2.3.0.zip](https://github.com/xylocrypt/purestudy-releases/releases/download/extension-v2.3.0/PureStudy-Extension-v2.3.0.zip)
 - **Install instructions**: [extension/README.md](extension/README.md)
-- **Checksum**: [SHA256SUMS.txt](extension/SHA256SUMS.txt)
+- **Checksum**: [SHA256SUMS.txt](https://github.com/xylocrypt/purestudy-releases/releases/download/extension-v2.3.0/SHA256SUMS.txt)
+- **Release page**: [PureStudy Browser Extension v2.3.0](https://github.com/xylocrypt/purestudy-releases/releases/tag/extension-v2.3.0)
 
 **Install:** unzip the download, open `chrome://extensions` or `edge://extensions`, turn on **Developer mode**, click **Load unpacked**, and select the extracted folder. Then pin PureStudy from the extensions menu. Chrome and Edge hide new extensions by default; the extension cannot pin itself.
 

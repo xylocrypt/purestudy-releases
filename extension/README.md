@@ -4,8 +4,9 @@ The PureStudy 2.3 extension for **Chrome and Edge** opens the full app in a norm
 
 ## Download
 
-- **[PureStudy-Extension-v2.3.0.zip](https://github.com/xylocrypt/purestudy-releases/raw/main/extension/PureStudy-Extension-v2.3.0.zip)**
-- [SHA-256 checksum](https://github.com/xylocrypt/purestudy-releases/raw/main/extension/SHA256SUMS.txt)
+- **[PureStudy-Extension-v2.3.0.zip](https://github.com/xylocrypt/purestudy-releases/releases/download/extension-v2.3.0/PureStudy-Extension-v2.3.0.zip)**
+- [SHA-256 checksum](https://github.com/xylocrypt/purestudy-releases/releases/download/extension-v2.3.0/SHA256SUMS.txt)
+- [Release page](https://github.com/xylocrypt/purestudy-releases/releases/tag/extension-v2.3.0)
 
 `27125b95f8de10a17857b17842e4488903abc1b9995dd14981e9916f1f6c4794`
 
