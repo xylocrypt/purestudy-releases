@@ -1,6 +1,6 @@
 # PureStudy — Study Timer
 
-PureStudy is a cozy offline study timer for Windows and the browser. Version 2.3 adds a priority to-do list, task-linked focus blocks, an exam countdown, an offline study coach, pet-specific treats, and JSON backup/restore — alongside the timer, XP, streaks, eight customizable study buddies, study music, error journal, and mind map.
+PureStudy is a cozy offline study timer for Windows, the web, and Chrome/Edge. Version 2.3 adds a priority to-do list, task-linked focus blocks, an exam countdown, an offline study coach, pet-specific treats, and JSON backup/restore — alongside the timer, XP, streaks, eight customizable study buddies, study music, error journal, and mind map.
 
 **Website:** [PureStudy landing page](https://html.cafe/x8efb4c95) - a visual tour of the timer, buddies and 2.3 features.
 
@@ -12,6 +12,18 @@ PureStudy is a cozy offline study timer for Windows and the browser. Version 2.3
 - **Checksums**: [SHA256SUMS.txt](https://github.com/xylocrypt/purestudy-releases/releases/download/v2.3/SHA256SUMS.txt)
 - **Release page**: [PureStudy v2.3](https://github.com/xylocrypt/purestudy-releases/releases/tag/v2.3)
 - **All releases**: [purestudy-releases](https://github.com/xylocrypt/purestudy-releases/releases)
+
+## Browser extension for Chrome and Edge
+
+The full PureStudy app is also available as a Manifest V3 browser extension. It opens in a normal tab, adds an **Alt+Shift+P** shortcut, and can notify you when a focus block ends while the tab is closed.
+
+- **Download extension (ZIP)**: [PureStudy-Extension-v2.3.0.zip](https://github.com/xylocrypt/purestudy-releases/raw/main/extension/PureStudy-Extension-v2.3.0.zip)
+- **Install instructions**: [extension/README.md](extension/README.md)
+- **Checksum**: [SHA256SUMS.txt](extension/SHA256SUMS.txt)
+
+**Install:** unzip the download, open `chrome://extensions` or `edge://extensions`, turn on **Developer mode**, click **Load unpacked**, and select the extracted folder. Then pin PureStudy from the extensions menu. Chrome and Edge hide new extensions by default; the extension cannot pin itself.
+
+No host permissions, content scripts, or network requests. Study data stays on your device.
 
 ## Browser version
 
